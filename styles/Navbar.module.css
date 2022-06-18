@@ -1,0 +1,21 @@
+.Navitem > a {
+    padding: 0px 10px;
+    color:white;
+}
+
+.Navbar {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar > ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px 60px;
+}
+
+.logo {
+    padding: 10px;
+}
