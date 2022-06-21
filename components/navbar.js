@@ -12,7 +12,7 @@ const Navbar = () => {
           </span>
           <ul>
             <Navitem text="Projects" path="#"/>
-            <Navitem text="About" path="#" />
+            <Navitem text="Resume" path="resume" />
             <Navitem text="Contact" path="#" />
           </ul>
         </nav>

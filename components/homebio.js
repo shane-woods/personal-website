@@ -15,7 +15,7 @@ const HomeBio = () => {
 						</div>
 						<span className={styles.Pic}>
 								<div className={styles.ImageWrap}>	
-									<Image src={HomeImage} alt="Picture of me in front of a waterfall" height={360} width={300} />
+									<Image src={HomeImage} alt="Picture of me in front of a waterfall" height={320} width={300} />
 								</div>
 						</span>
 						<p>

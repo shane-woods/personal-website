@@ -7,13 +7,15 @@
 .Bio {
     display: flex;
     justify-content: center;
-    margin: 0 100px;
-    padding: 0 100px;
+    margin: 0 175px;
+    padding: 0 175px;
 }
 
 .Grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
 .Header > h1 {
@@ -22,7 +24,6 @@
     font-weight: normal;
     grid-column-start: 1;
     grid-column-end: 2;
-    margin-left: 45px;
 }
 
 .Grid > p {
