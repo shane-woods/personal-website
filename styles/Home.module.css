@@ -1,5 +1,52 @@
 .Home {
-    background-color: #FFFFFF;
+    background-color: #122038;
     height: 100vh;
     width: 100vw;
+}
+
+.Bio {
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+    padding: 0 100px;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Header > h1 {
+    color:white;
+    font-size: 25px;
+    font-weight: normal;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 45px;
+}
+
+.Grid > p {
+    color:white;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 25px;
+    word-spacing: .05em;
+    grid-column-start:1;
+    grid-column-end:3;
+
+}
+
+.Pic {
+    margin: 15px 0;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.ImageWrap {
+    border: 10px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 270px;
+    height: 270px;
+    position: relative;
 }

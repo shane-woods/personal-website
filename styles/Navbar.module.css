@@ -1,6 +1,17 @@
 .Navitem > a {
-    padding: 0px 10px;
+    padding: 10px 10px;
     color:white;
+    font-size: 1.125em;
+    font-family: 'Encode Sans', sans-serif;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin: 0 10px;
+    transition:0.25s;
+}
+
+.Navitem > a:hover {
+    color:#122038;
+    background-color: white;
 }
 
 .Navbar {
@@ -8,14 +19,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 5em;
 }
 
 .Navbar > ul {
     list-style-type: none;
     display: inline-flex;
     padding: 0px 60px;
+    margin:16px 16px;
 }
 
 .logo {
     padding: 10px;
+    margin-left:25px;
 }

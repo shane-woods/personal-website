@@ -8,12 +8,12 @@ const Navbar = () => {
     return (
         <nav className={styles.Navbar}>
           <span className={styles.logo}>
-            <Image src={nameLogo} alt="Image of my name" height={84} width={84}/>
+            <Image src={nameLogo} alt="Image of my name" height={72} width={200}/>
           </span>
           <ul>
-            <Navitem text="Projects" path="projects"/>
-            <Navitem text="About" path="about" />
-            <Navitem text="Contact" path="contact" />
+            <Navitem text="Projects" path="#"/>
+            <Navitem text="About" path="#" />
+            <Navitem text="Contact" path="#" />
           </ul>
         </nav>
     )
