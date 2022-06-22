@@ -2,11 +2,17 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import HomeImage from '../public/images/Shane_Waterfall.jpeg'
+import Head from 'next/head'
 import Link from 'next/link'
 
 const HomeBio = () => {
     return (
         <div className={styles.Bio}>
+				<Head>
+					<style>
+						@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+					</style>
+				</Head>
 					<div className={styles.Grid}>
 						<div className={styles.Header}>
 								<h1>Student at UNH</h1>

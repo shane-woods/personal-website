@@ -5,15 +5,21 @@ import Link from 'next/link'
 import LinkedIn from '../public/icons/logos/linkedin.png'
 import GitHub from '../public/icons/logos/github.png'
 import Email from '../public/icons/logos/email.png'
+import Head from 'next/head'
 
 
 
 const Footer = () => {
     return(
         <footer className={styles.Footer}>
-            <div className={styles.Line}></div>
-            <Footitem src={LinkedIn} name="LinkedIn" path="https://www.linkedin.com/in/shane-woods-cs/" />
-            {/* <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">All icons created by Freepik - Flaticon</a> */}
+          <Head>
+          <style>
+						@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+					</style>
+          </Head>
+          <div className={styles.Line}></div>
+          <Footitem src={LinkedIn} name="LinkedIn" path="https://www.linkedin.com/in/shane-woods-cs/" />
+          {/* <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">All icons created by Freepik - Flaticon</a> */}
         </footer>
     )
 }
