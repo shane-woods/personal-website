@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <style>
-					@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+					@import url(&lsqohttps://fonts.googleapis.com/css2?family=Encode+Sans&display=swap&rsqo);
 				</style>
       </Head>
       <Navbar />
