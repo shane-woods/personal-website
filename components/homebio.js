@@ -8,11 +8,6 @@ import Link from 'next/link'
 const HomeBio = () => {
     return (
         <div className={styles.Bio}>
-				<Head>
-					<style>
-						@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
-					</style>
-				</Head>
 					<div className={styles.Grid}>
 						<div className={styles.Header}>
 								<h1>Student at UNH</h1>

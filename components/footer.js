@@ -12,11 +12,6 @@ import Head from 'next/head'
 const Footer = () => {
     return(
         <footer className={styles.Footer}>
-          <Head>
-          <style>
-						@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
-					</style>
-          </Head>
           <div className={styles.Line}></div>
           <Footitem src={LinkedIn} name="LinkedIn" path="https://www.linkedin.com/in/shane-woods-cs/" />
           {/* <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">All icons created by Freepik - Flaticon</a> */}
