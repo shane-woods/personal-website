@@ -8,6 +8,8 @@ import Link from 'next/link'
 const HomeBio = () => {
     return (
         <div className={styles.Bio}>
+				<Head>
+				</Head>
 					<div className={styles.Grid}>
 						<div className={styles.Header}>
 								<h1>Student at UNH</h1>
