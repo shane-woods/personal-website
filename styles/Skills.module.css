@@ -1,0 +1,86 @@
+.Skills {
+  display: flex;
+  justify-content: center;
+  background-color: #1a3053;
+  height: 300px;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  column-gap: 100px;
+  margin-bottom: 25px;
+}
+
+.Header > h3 {
+  color: white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 30px;
+}
+
+.Header {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.c_cpp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.c_cpp > i {
+  color: white;
+}
+
+.c_cpp > p {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin:0;
+}
+
+.chip {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chip > p {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  width: 200px;
+}
+
+.java {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.java > i {
+  color: white;
+}
+
+.java > p {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+ 

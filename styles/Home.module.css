@@ -1,40 +1,25 @@
 
 .Home {
     background-color: #122038;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 
+
 .Bio {
     display: flex;
-    justify-content: center;
-    margin: 0 175px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 200px 50px 200px;
     padding: 0 175px;
 }
 
-.Grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center;
-}
-
-.Header > h1 {
-    color:white;
-    font-size: 25px;
-    font-weight: normal;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.Grid > p {
+.Header > p {
     color:white;
     font-family: 'Encode Sans', sans-serif;
     font-size: 25px;
+    padding: 15px 0;
     word-spacing: .05em;
-    grid-column-start:1;
-    grid-column-end:3;
-
 }
 
 .Pic {

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Resume.module.css'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 
 const Resume = () => {
   return(
@@ -13,6 +14,9 @@ const Resume = () => {
         <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap" rel="stylesheet" />
       </Head>
       <Navbar />
+      {/* <Document file={resume}>
+        <Page pageNumber={1}/>
+      </Document> */}
       <Footer />
     </div>
   )

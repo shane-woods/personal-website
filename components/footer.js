@@ -1,33 +1,32 @@
 import React from 'react'
 import styles from '../styles/Footer.module.css'
-import Image from 'next/image'
 import Link from 'next/link'
-import LinkedIn from '../public/icons/logos/linkedin.png'
-import GitHub from '../public/icons/logos/github.png'
-import Email from '../public/icons/logos/email.png'
-import Head from 'next/head'
-
-
 
 const Footer = () => {
     return(
-        <footer className={styles.Footer}>
-          <div className={styles.Line}></div>
-          <Footitem src={LinkedIn} name="LinkedIn" path="https://www.linkedin.com/in/shane-woods-cs/" />
-          {/* <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">All icons created by Freepik - Flaticon</a> */}
-        </footer>
-    )
-}
-
-const Footitem = (props) => {
-    return (
-        <div className={styles.Footitem}>
-            <Link href={props.path}>
-                <a>
-                    <Image src={props.src} alt={props.name + 'Logo'} height={64} width={64} />
-                </a>
+      <footer className={styles.Footer}>
+          <div className={styles.LinkedIn}>
+            <Link href="https://www.linkedin.com/in/shane-woods-cs/">
+              <a>
+                <i class="lab la-linkedin la-3x" />
+              </a>
             </Link>
-        </div>
+          </div>
+          <div className={styles.Email}>
+            <Link href="mailto:shane.woods@unh.edu">
+              <a>
+                <i class="las la-envelope la-3x" />
+              </a>
+            </Link>
+          </div>
+          <div className={styles.GitHub}>
+            <Link href="https://github.com/shane-woods">
+              <a>
+                <i class="lab la-github la-3x"/>
+              </a>
+            </Link>
+          </div>
+      </footer>
     )
 }
 
