@@ -1,8 +1,15 @@
 .Skills {
   display: flex;
+  margin-bottom: 200px;
   justify-content: center;
-  background-color: #1a3053;
+  background-color: #1c2c49;
   height: 300px;
+}
+
+.Pagebreak {
+  border-top: 2px white solid;
+  width: 1027.5px;
+  padding: 0 40px;
 }
 
 .Grid {
@@ -10,15 +17,17 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+  margin: 75px 0 75px 0;
   align-content: center;
   column-gap: 100px;
-  margin-bottom: 25px;
+  row-gap: 50px;
 }
 
-.Header > h3 {
+.Header > h1 {
   color: white;
   font-family: 'Encode Sans', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
+  font-weight: 100;
 }
 
 .Header {

@@ -1,23 +1,23 @@
 
 .Home {
-    background-color: #122038;
+    background-color: #1c2c49;
     min-height: 100vh;
     width: 100vw;
 }
-
 
 .Bio {
     display: flex;
     justify-items: center;
     align-items: center;
-    margin: 0 200px 50px 200px;
+    margin: 0 100px 50px 100px;
     padding: 0 175px;
 }
 
-.Header > p {
+.About {
+    margin: 30px 30px;
     color:white;
     font-family: 'Encode Sans', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     padding: 15px 0;
     word-spacing: .05em;
 }
@@ -33,7 +33,7 @@
     border: 10px solid transparent;
     border-radius: 50%;
     overflow: hidden;
-    width: 270px;
-    height: 270px;
+    width: 400px;
+    height: 400px;
     position: relative;
 }

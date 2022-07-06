@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Resume.module.css'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import * as PDFJS from 'pdfjs-dist/build/pdf'
+PDFJS.GlobalWorkerOptions.workerSrc = 'resume.pdf'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 
 const Resume = () => {

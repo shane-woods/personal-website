@@ -1,3 +1,19 @@
+.Navbar {
+    background-color: #1c2c49;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+}
+
+.Navbar > ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px 60px;
+    margin:16px 16px;
+}
 
 .Navitem > a {
     padding: 10px 10px;
@@ -11,25 +27,10 @@
 }
 
 .Navitem > a:hover {
-    color:#122038;
+    color:#1c2c49;
     background-color: white;
 }
 
-.Navbar {
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid white;
-    margin-bottom: 50px;
-}
-
-.Navbar > ul {
-    list-style-type: none;
-    display: inline-flex;
-    padding: 0px 60px;
-    margin:16px 16px;
-}
 
 .logo {
     padding: 10px;

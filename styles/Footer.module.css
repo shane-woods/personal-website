@@ -1,28 +1,30 @@
 
-
-.LinkedIn {
-    display: flex;
-    color: white;
-}
-
-.Email {
-    display: flex;
-    color: white;
-}
-
-.GitHub {
-    display: flex;
-    color: white;
-}
-
 .Footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #122038;
+    background-color: #1c2c49;
     height: 95px;
 }
 
-.Footer > div {
-    margin: 0 25px;
+.Footitem {
+    margin: 25px 25px;
+}
+
+.Footitem {
+    display: flex;
+    color: white;
+}
+
+.Footitem:hover {
+    color:gold;
+}
+
+
+.Pagebreak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1027.5px;
+    border-top: 2px solid white;
 }
