@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles/Skills.module.css'
 import chip from '../public/icons/logos/chip.png'
-import c_cpp from '../public/icons/logos/c_cpp.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
