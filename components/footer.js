@@ -9,21 +9,21 @@ const Footer = () => {
           <div className={styles.Footitem}>
             <Link href="https://www.linkedin.com/in/shane-woods-cs/">
               <a>
-                <i class="lab la-linkedin la-3x" />
+                <i className="lab la-linkedin la-3x" />
               </a>
             </Link>
           </div>
           <div className={styles.Footitem}>
             <Link href="mailto:shane.woods@unh.edu">
               <a>
-                <i class="las la-envelope la-3x" />
+                <i className="las la-envelope la-3x" />
               </a>
             </Link>
           </div>
           <div className={styles.Footitem}>
             <Link href="https://github.com/shane-woods">
               <a>
-                <i class="lab la-github la-3x"/>
+                <i className="lab la-github la-3x"/>
               </a>
             </Link>
           </div>

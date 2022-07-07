@@ -32,7 +32,7 @@ const Experience = () => {
               <h3 className={styles.Company}>UNH Wrestling Club</h3>
               <p className={styles.Period}>Nov 2021 - Nov 2022</p>
               <p className={styles.Description}>
-                Fill in here
+                Planned tournaments, coordinated meetings & managed club's finances
               </p>
             </div>
         </div>
