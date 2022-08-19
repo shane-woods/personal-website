@@ -14,7 +14,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className={styles.Footitem}>
-            <Link href="mailto:shane.woods@unh.edu">
+            <Link href="mailto:shwoods35@gmail.com">
               <a>
                 <i className="las la-envelope la-3x" />
               </a>
