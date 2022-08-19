@@ -10,8 +10,11 @@ const Navbar = () => {
         <nav className={styles.Navbar}>
           <div className={styles.logo}>
             <Link href='/'>
-              <a>Shane Woods</a>
+              <a>Shane Woods
+                &nbsp;<i class="las la-home"></i>
+              </a>
             </Link>
+            
           </div>
           <ul>
             <Navitem text="Resume" path="resume" />

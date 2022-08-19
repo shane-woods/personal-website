@@ -33,8 +33,9 @@
 
 
 .logo {
-    padding: 25px;
-    margin-left:25px;
+    padding:10px;
+    margin: 0 0 0 25px;
+    display: flex;
 }
 
 .logo > a {
