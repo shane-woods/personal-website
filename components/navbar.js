@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className={styles.logo}>
             <Link href='/'>
               <a>Shane Woods
-                &nbsp;<i class="las la-home"></i>
+                &nbsp;<i className="las la-home"></i>
               </a>
             </Link>
             
