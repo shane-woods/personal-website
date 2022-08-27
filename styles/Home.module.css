@@ -5,28 +5,38 @@
     width: 100vw;
 }
 
-.Bio {
+.Container {
     display: flex;
+    justify-content: center;
+}
+
+.Pagebreak {
+    width: 1027.5px;
+}
+
+.Bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     margin: 0 100px 50px 100px;
-    padding: 0 175px;
 }
 
 .About {
     margin: 30px 30px;
+    min-height: 200px;
+}
+
+.About > p {
     color:white;
     font-family: 'Encode Sans', sans-serif;
     font-size: 30px;
-    padding: 15px 0;
     word-spacing: .05em;
 }
 
 .Pic {
     margin: 15px 0;
     text-align: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
 }
 
 .ImageWrap {
