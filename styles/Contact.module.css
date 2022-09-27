@@ -1,11 +1,11 @@
 .Contact {
   background-color: #1c2c49;
-  height: 100vh;
-  width: 100vw;
 }
 
 .Container {
   display: flex;
+  width: 90%;
+  margin:auto;
   flex-direction: column;
   align-items: center;
 }

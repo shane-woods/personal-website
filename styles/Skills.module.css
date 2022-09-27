@@ -1,50 +1,74 @@
 .Skills {
   display: flex;
-  margin-bottom: 200px;
+  margin: 75px auto;
   justify-content: center;
   background-color: #1c2c49;
-  height: 300px;
+  border-top: 2px solid white;
+  width: 80%;
 }
 
-.Pagebreak {
-  border-top: 2px white solid;
-  width: 1027.5px;
-  padding: 0 40px;
+@media (max-width: 900px) {
+  .Grid {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    row-gap: 30px;
+    justify-items: center;
+    margin:75px auto;
+  }
 }
 
-.Grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
-  margin: 75px 0 75px 0;
-  align-content: center;
-  column-gap: 100px;
-  row-gap: 50px;
+@media (min-width: 900px) {
+  .Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin:75px auto;
+    align-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+
+  }
+
+  .Header {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .c_cpp {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-bottom: 20px;
+  }
+  
+  .java {
+    margin-bottom: 20px;
+  }
 }
 
-.Header > h1 {
-  color: white;
-  font-family: 'Encode Sans', sans-serif;
-  font-size: 50px;
-  font-weight: 100;
-}
 
 .Header {
   display: flex;
   height: 75px;
   align-items: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
 
 .c_cpp {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
   align-items: center;
-  grid-column-start: 1;
-  grid-column-end: 1;
+}
+
+.chip {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.java {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .c_cpp > i {
@@ -59,12 +83,6 @@
   margin:0;
 }
 
-.chip {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .chip > p {
   font-family: 'Encode Sans', sans-serif;
   font-size: 20px;
@@ -72,13 +90,6 @@
   text-align: center;
   margin: 0;
   width: 200px;
-}
-
-.java {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
 }
 
 .java > i {
@@ -92,4 +103,12 @@
   text-align: center;
   margin: 0;
 }
+
+.Header > h1 {
+  color: white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+
  

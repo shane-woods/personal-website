@@ -5,13 +5,11 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid white;
-    margin-bottom: 50px;
 }
 
 .Navbar > ul {
     list-style-type: none;
     display: inline-flex;
-    padding: 0px 60px;
     margin:16px 16px;
 }
 

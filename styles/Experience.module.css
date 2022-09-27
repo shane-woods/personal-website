@@ -3,26 +3,48 @@
   margin: 0;
   justify-content: center;
   align-items: center;
+  border-top: 2px solid white;
+  width: 80%;
+  margin:auto;
   background-color: #1c2c49;
 }
 
-.Pagebreak {
-  border-top: 2px white solid;
-  padding: 0 40px;
+
+@media (min-width: 800px) {
+  .Grid {
+    display: grid;
+    margin:75px 25px;
+    justify-items: stretch;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 125px;
+  }
+
+  .Header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .Job {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
 }
 
-.Grid {
-  margin: 75px 0 75px 0;
-  display: grid;
-  justify-items: stretch;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 125px;
+@media (max-width:800px) {
+  .Grid {
+    margin: 75px 25px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .Job {
+    width: 90%;
+  }
 }
 
 .Header {
   display: flex;
-  grid-column-start: 1;
-  grid-column-end: 2;
 }
 
 .Header > h1 {
@@ -39,9 +61,6 @@
   margin: 30px 0 30px 0;
   flex-direction: column;
   padding: 10px 20px;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  transition: 300ms;
 }
 
 .Title {
