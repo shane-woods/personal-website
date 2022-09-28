@@ -13,6 +13,7 @@
 .Container > h2 {
   color: white;
   font-family: 'Encode Sans', sans-serif;
+  text-align: center;
 }
 
 .Info {

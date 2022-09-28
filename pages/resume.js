@@ -14,7 +14,7 @@ const Resume = () => {
       </Head>
       <Navbar />
       <div className={styles.Viewer}>
-      <iframe src="https://universitysystemnh-my.sharepoint.com/:w:/g/personal/sjw1056_usnh_edu/EYHWFURhA1tCkLbgPBvZG_gBL9g5r5V1iWqLL8n00xyzLA" width="50%" height="850px"></iframe>
+        <iframe src="https://universitysystemnh-my.sharepoint.com/:w:/g/personal/sjw1056_usnh_edu/EYHWFURhA1tCkLbgPBvZG_gBL9g5r5V1iWqLL8n00xyzLA?e=fn2BX7" width="50%" height="850px"></iframe>
       </div>
       <Footer />
     </div>

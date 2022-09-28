@@ -8,15 +8,22 @@ import nameLogo from '../public/icons/svgs/namelogo.svg'
 const Navbar = () => {
     return (
         <nav className={styles.Navbar}>
-          <div className={styles.logo}>
+          <div className={styles.nameLogo}>
             <Link href='/'>
               <a>Shane Woods
                 &nbsp;<i className="las la-home"></i>
               </a>
             </Link>
-            
           </div>
-          <ul>
+          <div className={styles.justLogo}>
+            <Link href='/'>
+              <i className="las la-home"></i>
+            </Link>
+          </div>
+          <div className={styles.Hamburger}>
+              <i className="las la-bars"></i>
+          </div>
+          <ul className={styles.Links}>
             <Navitem text="Resume" path="resume" />
             <Navitem text="Contact" path="contact" />
           </ul>

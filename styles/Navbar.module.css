@@ -7,10 +7,75 @@
     border-bottom: 2px solid white;
 }
 
-.Navbar > ul {
-    list-style-type: none;
-    display: inline-flex;
-    margin:16px 16px;
+@media (min-width:530px) {
+    .Links {
+        list-style-type: none;
+        display: inline-flex;
+        margin:16px 16px;
+    }
+
+    .nameLogo {
+        padding:10px;
+        margin: 0 0 0 25px;
+        display: flex;
+    }
+    
+    .nameLogo > a {
+        padding: 10px 10px;
+        color:white;
+        font-size: 20px;
+        font-family: 'Encode Sans', sans-serif;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        margin: 10px 10px;
+        transition:0.25s;
+    }
+    
+    .nameLogo > a:hover {
+        color:#1c2c49;
+        background-color: white;
+    }
+
+    .Hamburger {
+        display: none;
+    }
+
+    .justLogo { 
+        display: none;
+    }
+}
+
+@Media (max-width:530px) {
+    .Hamburger {
+        display: flex;
+        color:white;
+        font-size:35px;
+        margin:10px 10px;
+        padding:10px 10px;
+    }
+
+    .justLogo {
+        font-size: 35px;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        border-radius: 3px;
+        border: 1px solid transparent;
+        color: white;
+        transition: 0.25s;
+    }
+
+    .justLogo:hover {
+        color:#1c2c49;
+        background-color: white;
+    }
+
+    .Links {
+        display: none;
+    }
+
+    .nameLogo {
+        display: none;
+    }
 }
 
 .Navitem > a {
@@ -25,29 +90,6 @@
 }
 
 .Navitem > a:hover {
-    color:#1c2c49;
-    background-color: white;
-}
-
-
-.logo {
-    padding:10px;
-    margin: 0 0 0 25px;
-    display: flex;
-}
-
-.logo > a {
-    padding: 10px 10px;
-    color:white;
-    font-size: 20px;
-    font-family: 'Encode Sans', sans-serif;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    margin: 10px 10px;
-    transition:0.25s;
-}
-
-.logo > a:hover {
     color:#1c2c49;
     background-color: white;
 }
