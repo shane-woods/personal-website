@@ -10,7 +10,7 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 999px) {
     .About > p {
         margin-left: 10px;
     }
