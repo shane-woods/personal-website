@@ -10,3 +10,13 @@
     padding-bottom: 50px;
     padding-top: 50px;
 }
+
+.frame {
+    width: 75%;
+    height: 850px;
+    margin: 0 225px;
+}
+
+.frame > #document {
+    width:100px;
+}
