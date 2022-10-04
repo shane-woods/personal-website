@@ -1,6 +1,6 @@
 .Skills {
   display: flex;
-  margin: 75px auto;
+  margin:auto;
   justify-content: center;
   background-color: #1c2c49;
   border-top: 2px solid white;
@@ -23,7 +23,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    margin:75px auto;
+    margin:75px auto 100px auto;
     align-content: center;
     column-gap: 50px;
     row-gap: 50px;
