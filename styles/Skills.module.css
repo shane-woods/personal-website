@@ -1,9 +1,8 @@
 .Skills {
   display: flex;
-  margin:auto;
+  margin: auto;
   justify-content: center;
-  background-color: #1c2c49;
-  border-top: 2px solid white;
+  border-top: 2px solid black;
   width: 80%;
 }
 
@@ -13,7 +12,7 @@
     grid-template-columns: repeat(1, 2fr);
     row-gap: 30px;
     justify-items: center;
-    margin:75px auto;
+    margin: 75px auto;
   }
 }
 
@@ -23,11 +22,10 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    margin:75px auto 100px auto;
+    margin: 75px auto 100px auto;
     align-content: center;
     column-gap: 50px;
     row-gap: 50px;
-
   }
 
   .Header {
@@ -40,12 +38,11 @@
     grid-column-end: 1;
     margin-bottom: 20px;
   }
-  
+
   .java {
     margin-bottom: 20px;
   }
 }
-
 
 .Header {
   display: flex;
@@ -60,7 +57,7 @@
 }
 
 .chip {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -72,43 +69,41 @@
 }
 
 .c_cpp > i {
-  color: white;
+  color: black;
 }
 
 .c_cpp > p {
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: center;
-  margin:0;
+  margin: 0;
 }
 
 .chip > p {
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: center;
   margin: 0;
   width: 200px;
 }
 
 .java > i {
-  color: white;
+  color: black;
 }
 
 .java > p {
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Encode Sans", sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: center;
   margin: 0;
 }
 
 .Header > h1 {
-  color: white;
-  font-family: 'Encode Sans', sans-serif;
+  color: black;
+  font-family: "Encode Sans", sans-serif;
   font-size: 50px;
   font-weight: 100;
 }
-
- 

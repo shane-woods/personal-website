@@ -1,23 +1,28 @@
-import React from 'react'
-import styles from '../styles/Skills.module.css'
-import chip from '../public/icons/logos/chip.png'
-import Image from 'next/image'
-import Link from 'next/link'
-import Head from 'next/head'
+import React from "react";
+import styles from "../styles/Skills.module.css";
+import chip from "../public/icons/logos/chip-black.png";
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
 const Skills = () => {
   return (
     <div className={styles.Skills}>
       <div className={styles.Grid}>
         <div className={styles.Header}>
-          <h1>Skills</h1>   
+          <h1>Skills</h1>
         </div>
         <div className={styles.c_cpp}>
           <i className="las la-terminal la-8x"></i>
           <p>C/C++</p>
         </div>
         <div className={styles.chip}>
-          <Image src={chip} alt="Image of a computer chip" height={140} width={180}/>
+          <Image
+            src={chip}
+            alt="Image of a computer chip"
+            height={140}
+            width={180}
+          />
           <p>Microcontroller Programming</p>
         </div>
         <div className={styles.java}>
@@ -26,7 +31,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Skills;

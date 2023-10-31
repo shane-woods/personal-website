@@ -1,30 +1,27 @@
-
 .Footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1c2c49;
-    height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
 }
 
 .Footitem {
-    margin: 25px 25px;
+  margin: 25px 25px;
 }
 
 .Footitem {
-    display: flex;
-    color: white;
+  display: flex;
+  color: black;
 }
 
 .Footitem:hover {
-    color:aquamarine;
+  color: aquamarine;
 }
 
-
 .Pagebreak {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-top: 2px solid black;
 }

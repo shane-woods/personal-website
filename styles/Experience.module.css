@@ -3,17 +3,15 @@
   margin: 0;
   justify-content: center;
   align-items: center;
-  border-top: 2px solid white;
+  border-top: 2px solid black;
   width: 80%;
-  margin:auto;
-  background-color: #1c2c49;
+  margin: auto;
 }
-
 
 @media (min-width: 800px) {
   .Grid {
     display: grid;
-    margin:75px 25px;
+    margin: 75px 25px;
     justify-items: stretch;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 125px;
@@ -30,14 +28,14 @@
   }
 }
 
-@media (max-width:799px) {
+@media (max-width: 799px) {
   .Grid {
     margin: 75px 25px;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   .Job {
     width: 90%;
   }
@@ -48,7 +46,7 @@
 }
 
 .Header > h1 {
-  color: white;
+  color: black;
   font-size: 50px;
   font-family: "Encode Sans", sans-serif;
   font-weight: 100;
@@ -66,22 +64,22 @@
 .Title {
   margin: 15px 0 0 0;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 
 .Company {
   margin: 15px 0 0 0;
-  color: white;
+  color: black;
   font-family: "Encode Sans", sans-serif;
   font-size: 20px;
 }
 
 .Period {
-  color:lightgray;
+  color: grey;
 }
 
 .Description {
-  margin:5px 0 10px 0;
-  color: white;
+  margin: 5px 0 10px 0;
+  color: black;
   font-size: 15px;
 }
