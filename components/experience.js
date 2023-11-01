@@ -12,7 +12,7 @@ const Experience = () => {
         </div>
         <div className={styles.Job}>
           <h2 className={styles.Title}>
-            Full Stack Associate Software Engineering
+            Full Stack Associate Software Engineer
           </h2>
           <h3 className={styles.Company}>Fidelity Investments</h3>
           <p className={styles.Period}>Starting June 2024</p>
